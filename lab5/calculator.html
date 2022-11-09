@@ -19,13 +19,10 @@
 
      function calculate(){
 
-        let val1=document.getElementById("input1").value
-        let val2=document.getElementById("input2").value
-        let val3=document.getElementById("input3").value
-        
-      val3= ParseString(val1+ val2);
-      console.log(val3)
-      
+        let val1=Number(document.getElementById("input1").value)
+        let val2=Number(document.getElementById("input2").value)
+        let sum= val1+ val2;
+        let val3=document.getElementById("input3").value=String (sum)
 
      }
     </script>
