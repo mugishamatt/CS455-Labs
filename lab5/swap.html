@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+<body>
+    
+<img  id="image1" src="images/car1.jpeg" width =100px height = 100px alt="">
+<img  id="image2"src="images/car2.jpeg" width =100px height = 100px alt="">
+    
+
+<input type="button" value="Swap" 
+onclick="swap()">
+
+
+<script>
+
+function swap() {
+                let leftImage = document.getElementById('image1');
+                let rightImage = document.getElementById('image2');
+                
+                  let  image_left_src = leftImage.src;
+                  let  image_right_src = rightImage.src;
+//swap
+                leftImage.src = image_right_src;
+                rightImage.src = image_left_src;
+            }
+
+
+</script>
+
+</body>
+</html>
