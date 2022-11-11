@@ -1,0 +1,33 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="input1" type="number">
+    <input id="input2"type="number">
+    <input id="input3" type="number">
+ <button id="btn">submit</button>
+   <!-- <input type="button" onclick="calculate()" value="submit"> -->
+
+
+    <script>
+          
+      function calculate(){
+
+        let val1=parseInt(document.getElementById("input1").value)
+        let val2=Number(document.getElementById("input2").value)
+        let sum= val1+ val2;
+        let val3=document.getElementById("input3").value= String(sum)
+
+     }
+      document.getElementById('btn').onclick=calculate
+    
+    </script>
+</body>
+</html>
