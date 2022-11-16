@@ -1,0 +1,25 @@
+
+
+h1{
+   text-align: center;
+   margin-bottom: 30px;
+}
+#empDiv{
+
+}
+.row{
+    display: flex;
+     gap: 30px;
+     margin: 10px;
+     justify-content: center;
+    
+}
+.img{
+    
+    object-fit: contain;
+  
+} 
+#text-center{
+    display: flex;
+   justify-content: center;
+}
