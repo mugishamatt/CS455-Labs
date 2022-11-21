@@ -1,0 +1,62 @@
+body {
+  margin: auto;
+  width: 1024px;
+  padding: 10px;
+  /* background-color:#ebebeb; */
+  font-size: 14px;
+  font-family: Verdana;
+  /* background-image: url('background.jpeg'); */
+}
+
+.audioplayer {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 50px;
+}
+.audiocontrol {
+  width: 100%;
+  max-width: 600px;
+  align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-2 {
+  display: flex;
+  margin-top: 33px;
+}
+
+#audioplayer {
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  border-radius: 50px;
+}
+audio {
+  width: 400px;
+  height: 50px;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: rgb(165, 42, 42);
+  color: rgb(9, 9, 9);
+}
+
+.h1interested {
+  text-align: center;
+  color: green;
+  text-decoration: solid;
+}
+
+h4 {
+  text-align: center;
+  color: green;
+  text-decoration: solid;
+}
